@@ -10,6 +10,7 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=node-express'
+    'github.com/project-slug': julian-hj/node-express
 spec:
   type: service
   lifecycle: experimental
